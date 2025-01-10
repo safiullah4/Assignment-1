@@ -2,3 +2,81 @@
     margin: 0;
     padding: 0;
 }
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+/* Common styles */
+
+.green-btn{
+    font-size: 18px;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.headline-text{
+
+}
+
+.light-green-bg-color{
+    background-color: #006A50;
+}
+
+
+/* main body */
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Banner section style */
+.banner{
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+}
+
+.banner-content{
+    width: 622px;
+    height: 326px;
+}
+.banner-subtitle{
+ font-size: 24px;
+ font-weight: 500;
+    margin-bottom: 16px;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+.banner-title{
+    font-size: 56px;
+    margin-bottom: 24px;
+    line-height: normal;
+}
+
+.banner-btn{
+    font-size: 18px;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.banner-image{
+    width: 474px;
+    height: 400px;
+}
