@@ -104,6 +104,7 @@ main{
     background-color: #006A50;
     color: #FFFFFF;
     font-weight: 600;
+    border: none;
 }
 
 .banner-image{
@@ -247,6 +248,8 @@ border: none;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
 .taka-text{
@@ -260,4 +263,29 @@ border: none;
 }
 .taka-text-4{
     width: 193px;
+}
+.active-hover{
+    background-color: #C6E4D6;
+}
+.inactive-hover:hover{
+    background-color: #C6E4D6;
+}
+
+
+.other-amount{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+}
+input::placeholder{
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 30%;
+}
+
+.donate-button{
+    width: 155px;
+    height: 56px;
+    border-radius: none;
 }
