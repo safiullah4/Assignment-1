@@ -9,10 +9,13 @@
     font-style: normal;
   }
 
-  body{
+body{
     background-color: #F1F1F3;
   }
   
+
+
+
 /* Common styles */
 .flex{
     display: flex;
@@ -27,6 +30,12 @@
     background-color: #006A50;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
+}
+.green-btn:hover{
+    background-color: red;
+    color: black;
+    font-weight: 700;
 }
 .mini-btn{
     font-weight: 600;
@@ -34,6 +43,7 @@
     color: #FFFFFF;
     background-color: #5490F5;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .headline-text{
@@ -62,11 +72,17 @@ color: #0E0E0E;
 }
 
 
+
+
+
 /* main body */
 main{
     width: 1280px;
     margin: 0 auto;
 }
+
+
+
 
 /* Banner section style */
 .banner{
@@ -76,7 +92,6 @@ main{
     border-radius: 24px;
     margin: 20px 0 80px 0;
 }
-
 
 .banner-content{
     width: 622px;
@@ -105,8 +120,13 @@ main{
     color: #FFFFFF;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
-
+.banner-btn:hover{
+    background-color: red;
+    color: black;
+    font-weight: 700;
+}
 .banner-image{
     width: 474px;
     height: 400px;
@@ -114,7 +134,6 @@ main{
 
 
 /* future section style */
-
 /* future-header */
 .future-header{
     
@@ -129,6 +148,7 @@ main{
 .future-header-description{
 opacity: 70%;
 }
+
 
 /* future-pillers */
 .future-pillers{
@@ -159,6 +179,7 @@ margin-bottom: 32px;
 }
 .modern-infrastructure{
     width: 363px;
+    margin-bottom: 12px;
 }
 .future-pillers .bg-d-yellowish{
     background-color: #FFC239;
@@ -173,7 +194,6 @@ margin-bottom: 32px;
     height: 108px;
     
 }
-
 .future-piller-container-content-title{
     font-size: 20px;
     font-weight: bold;
@@ -185,12 +205,17 @@ margin-bottom: 32px;
 .future-piller-container-content-description{
     opacity: 70%;
 }
-
 .future-piller-container-button{
 width: 122px;
 height: 41px;
 border: none;
 }
+.mini-btn:hover{
+    background-color: red;
+    color: #006A50;
+    font-weight: 700;
+}
+
 
 /* future-quote */
 .future-quote{
@@ -276,8 +301,6 @@ border: none;
 .inactive-hover:hover{
     background-color: #C6E4D6;
 }
-
-
 .other-amount{
     width: 1032px;
     height: 64px;
@@ -293,10 +316,12 @@ input::placeholder{
 .donate-button{
     width: 155px;
     height: 56px;
-    border-radius: none;
+    border: none;
 }
 
-/* news style */
+
+
+/*Recent news style */
 .news{
     margin-top: 80px;
 }
@@ -327,7 +352,9 @@ padding: 48px;
 .news-boxes p{
     opacity: 70%;
 }
-
+.headline-text-opacity{
+    opacity: 70%;
+}
 
 .news-box-container-content-head{
     display: flex;
@@ -343,6 +370,8 @@ padding: 48px;
     height: 48px;
     border: none;
 }
+
+
 
 /* subscribe section */
 .subscribe{
@@ -383,4 +412,9 @@ border-radius: 0 8px 8px 0;
     text-align: center;
     width: 622px;
     height: 19px;
+}
+.span-text{
+    color: rgb(255, 77, 77);
+    font-weight: 500;
+    opacity: 70%;
 }
