@@ -343,3 +343,44 @@ padding: 48px;
     height: 48px;
     border: none;
 }
+
+/* subscribe section */
+.subscribe{
+    background-color: #C6E4D6;
+    margin-bottom: 80px;
+    height: 395px;
+    border-radius: 24px;
+}
+.subscribe-container{
+    width: 750px;
+    flex-direction: column;
+    gap: 24px;
+}
+.subscribe-container-content{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.subscribe-container-content h2{
+    margin-bottom: 16px;
+}
+
+.subscribe-email-box{
+    width: 592px;
+    height: 56px;
+    display: inline-block;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.subscribe button{
+width: 150px;
+height: 56px;
+border: none;
+border-radius: 0 8px 8px 0;
+}
+
+.subscribe-container-content p{
+    text-align: center;
+    width: 622px;
+    height: 19px;
+}
