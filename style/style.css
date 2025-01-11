@@ -9,9 +9,16 @@
     font-style: normal;
   }
 
+  body{
+    background-color: #F1F1F3;
+  }
   
 /* Common styles */
-
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .green-btn{
     font-size: 18px;
     width: 270px;
@@ -20,6 +27,13 @@
     background-color: #006A50;
     color: #FFFFFF;
     font-weight: 600;
+}
+.mini-btn{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border-radius: 8px;
 }
 
 .headline-text{
@@ -40,6 +54,13 @@ color: #0E0E0E;
     color: #0E0E0E;
 }
 
+,.headline-text-mini{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
 
 /* main body */
 main{
@@ -50,9 +71,6 @@ main{
 /* Banner section style */
 .banner{
     height: 560px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 64px;
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -99,7 +117,7 @@ main{
 .future{
 
 }
-
+/* future-header */
 .future-header{
     
 }
@@ -114,9 +132,82 @@ main{
 opacity: 70%;
 }
 
+/* future-pillers */
 .future-pillers{
+gap: 24px;
+margin-bottom: 32px;
+}
+.future-piller-container{
+    width: 410.67px;
+    column-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+    /* #5490F5 for color and 33 for hex code means 20% opecity  */
+    background-color: #5490F533;
+    border-radius: 16px;
+}
+
+.future-pillers .bg-green{
+    background-color: #C6E4D6;
+}
+.future-pillers .bg-d-green{
+    background-color: #09A15C;
+}
+.future-pillers .bg-yellowish{
+    background-color: #F7EBCF;
+}
+.future-pillers .bg-d-yellowish{
+    background-color: #FFC239;
+}
+.future-piller-container-icon{
+    width: 64px;
+    height: 64px;
+}
+.future-piller-container-content{
+    width: 346.67px;
+    column-gap: 12px;
+    height: 108px;
+    
+}
+
+.future-piller-container-content-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
 
 }
+.future-piller-container-content-description{
+    opacity: 70%;
+}
+.future-piller-container-button{
+width: 122px;
+height: 41px;
+border: none;
+}
+
+/* future-quote */
 .future-quote{
-    
+    background: #FFFFFF url("../assets/quote-bg.png") no-repeat left 24px top 25px;
+    background-size: 64px 64px;
+    padding: 48px 24px;
+}
+.future-quote-content{
+    margin-bottom: 12PX;
+}
+
+.future-content-quote{
+    opacity: 80%;
+    line-height: 24px;
+}
+.quote-name{
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 80%;
+}
+.uote-designation{
+    opacity: 60%;
 }
