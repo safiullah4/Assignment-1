@@ -154,6 +154,11 @@ margin-bottom: 32px;
 }
 .future-pillers .bg-yellowish{
     background-color: #F7EBCF;
+    padding: 24px;
+    height: 277px;
+}
+.modern-infrastructure{
+    width: 363px;
 }
 .future-pillers .bg-d-yellowish{
     background-color: #FFC239;
@@ -180,6 +185,7 @@ margin-bottom: 32px;
 .future-piller-container-content-description{
     opacity: 70%;
 }
+
 .future-piller-container-button{
 width: 122px;
 height: 41px;
@@ -301,6 +307,7 @@ margin-bottom: 24px;
     background-color: #FFFFFF;
     height: 402px;
     margin: 32px 0;
+    border-radius: 24px;
 }
 .news-box-container{
 gap: 32px;
@@ -321,9 +328,6 @@ padding: 48px;
     opacity: 70%;
 }
 
-.news-box-container-content{
-
-}
 
 .news-box-container-content-head{
     display: flex;
@@ -337,4 +341,5 @@ padding: 48px;
 .news-boxes button{
     width: 139px;
     height: 48px;
+    border: none;
 }
