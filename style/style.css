@@ -23,11 +23,21 @@
 }
 
 .headline-text{
-
+    /* width height alignment varies on used h2 elements */
+height: auto;
+font-size: 40px;
+font-weight: bold;
+color: #0E0E0E;
 }
 
 .light-green-bg-color{
     background-color: #006A50;
+}
+
+.description-text{
+    /*different opecity and alignment based on requirement*/
+    font-size: 16px;
+    color: #0E0E0E;
 }
 
 
@@ -46,12 +56,14 @@ main{
     gap: 64px;
     background-color: #C6E4D6;
     border-radius: 24px;
+    margin: 20px 0 80px 0;
 }
-}
+
 
 .banner-content{
     width: 622px;
     height: 326px;
+    margin-left: -40.01px;
 }
 .banner-subtitle{
  font-size: 24px;
@@ -79,4 +91,32 @@ main{
 .banner-image{
     width: 474px;
     height: 400px;
+}
+
+
+/* future section style */
+
+.future{
+
+}
+
+.future-header{
+    
+}
+.future-header-container{
+    margin-bottom: 32px;
+}
+.future-header-title{
+    margin-bottom: 24px;
+}
+
+.future-header-description{
+opacity: 70%;
+}
+
+.future-pillers{
+
+}
+.future-quote{
+    
 }
