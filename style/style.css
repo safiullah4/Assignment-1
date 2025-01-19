@@ -17,13 +17,16 @@ body{
 
 
 /* Common styles */
+.hide{
+    display: none;
+}
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .green-btn{
-    font-size: 18px;
+    font-size: 1.1rem;
     width: 270px;
     height: 56px;
     border-radius: 8px;
@@ -39,7 +42,7 @@ body{
 }
 .mini-btn{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFFFFF;
     background-color: #5490F5;
     border-radius: 8px;
@@ -49,7 +52,7 @@ body{
 .headline-text{
     /* width height alignment varies on used h2 elements */
 height: auto;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: bold;
 color: #0E0E0E;
 }
@@ -60,12 +63,12 @@ color: #0E0E0E;
 
 .description-text{
     /*different opecity and alignment based on requirement*/
-    font-size: 16px;
+    font-size: 1rem;
     color: #0E0E0E;
 }
 
-,.headline-text-mini{
-    font-size: 20px;
+.headline-text-mini{
+    font-size: 1.25rem;
     font-weight: bold;
     color: #0E0E0E;
     opacity: 80%;
@@ -77,7 +80,7 @@ color: #0E0E0E;
 
 /* main body */
 main{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -86,7 +89,7 @@ main{
 
 /* Banner section style */
 .banner{
-    height: 560px;
+    max-height: 560px;
     gap: 64px;
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -94,26 +97,26 @@ main{
 }
 
 .banner-content{
-    width: 622px;
+    max-width: 622px;
     height: 326px;
     margin-left: -40.01px;
 }
 .banner-subtitle{
- font-size: 24px;
+ font-size: 1.5rem;
  font-weight: 500;
     margin-bottom: 16px;
     color: #0E0E0E;
     opacity: 50%;
 }
 .banner-title{
-    font-size: 56px;
+    font-size: 3.5rem;
     margin-bottom: 24px;
     line-height: normal;
 }
 
 .banner-btn{
-    font-size: 18px;
-    width: 270px;
+    font-size: 1.12rem;
+    max-width: 270px;
     height: 56px;
     border-radius: 8px;
     background-color: #006A50;
@@ -128,7 +131,7 @@ main{
     font-weight: 700;
 }
 .banner-image{
-    width: 474px;
+    max-width: 474px;
     height: 400px;
 }
 
@@ -156,7 +159,7 @@ gap: 24px;
 margin-bottom: 32px;
 }
 .future-piller-container{
-    width: 410.67px;
+    max-width: 410.67px;
     column-gap: 12px;
     display: flex;
     flex-direction: column;
@@ -178,7 +181,7 @@ margin-bottom: 32px;
     height: 277px;
 }
 .modern-infrastructure{
-    width: 363px;
+    max-width: 363px;
     margin-bottom: 12px;
 }
 .future-pillers .bg-d-yellowish{
@@ -189,13 +192,13 @@ margin-bottom: 32px;
     height: 64px;
 }
 .future-piller-container-content{
-    width: 346.67px;
+    max-width: 346.67px;
     column-gap: 12px;
     height: 108px;
     
 }
 .future-piller-container-content-title{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #0E0E0E;
     opacity: 80%;
@@ -233,7 +236,7 @@ border: none;
 }
 .quote-name{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     opacity: 80%;
 }
 .uote-designation{
@@ -254,7 +257,7 @@ border: none;
 .donate-today{
     text-align: center;
     height: 120px;
-    width: 1280px;
+    max-width: 1280px;
 
 }
 .donate-today h1{
@@ -269,7 +272,7 @@ border: none;
     display: flex;
     align-items: center;
     gap: 24px;
-    width: 1071px;
+    max-width: 1071px;
 }
 
 .hundred-taka{
@@ -302,13 +305,13 @@ border: none;
     background-color: #C6E4D6;
 }
 .other-amount{
-    width: 1032px;
+    max-width: 1032px;
     height: 64px;
     text-align: center;
     border: none;
 }
 input::placeholder{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #0E0E0E;
     opacity: 30%;
 }
@@ -343,7 +346,7 @@ padding: 48px;
     border-radius: 24px;
 }
 .news-boxes h3{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     color: #0E0E0E;
     opacity: 80%;
@@ -381,7 +384,7 @@ padding: 48px;
     border-radius: 24px;
 }
 .subscribe-container{
-    width: 750px;
+    max-width: 750px;
     flex-direction: column;
     gap: 24px;
 }
@@ -394,7 +397,7 @@ padding: 48px;
 }
 
 .subscribe-email-box{
-    width: 592px;
+    max-width: 592px;
     height: 56px;
     display: inline-block;
     border: none;
@@ -410,11 +413,81 @@ border-radius: 0 8px 8px 0;
 
 .subscribe-container-content p{
     text-align: center;
-    width: 622px;
+    max-width: 622px;
     height: 19px;
 }
 .span-text{
     color: rgb(255, 77, 77);
     font-weight: 500;
     opacity: 70%;
+}
+
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+/* banner */
+    .banner{
+        flex-direction: column;
+        /* reset the max height */
+        max-height: none;
+        height: auto;
+        padding: 20px;
+        margin:0 0 80px 0;
+        max-width: none;
+        width: calc(100% - 40px);
+        height: auto;
+    }
+
+    /* for content box its better to use calc with - bothside padding */
+    .banner-content{
+        margin: 0;
+        width: calc(100% - 20px);
+        height: auto;
+    }
+    .banner-btn{
+        width: 50%;
+    }
+    .banner-image{
+        width: calc(100% - 20px);
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+
+/* future */
+    .future-header, .news-intro{
+        max-width: none;
+        width: calc(100% - 40px);
+        padding-left: 20px;
+    }
+
+    .future-pillers, .news-box-container, .donate, .subscribe-container{
+        flex-direction: column;
+        max-width: none;
+        width: calc(100% - 40px);
+        padding-left: 20px;
+    }
+/* news */
+    .news-boxes,.donate-today{
+        height: auto;
+    }
+
+/* donate */
+.donate div{
+    height: auto;
+}
+.taka-amount{
+    height: none;
+    flex-direction: column;
+}
+.donate input{
+    width: 90%;
+}
+
+/* newsletter */
+.subscribe-container,.subscribe-container-content .description-text{
+    height: auto;
+}
 }
